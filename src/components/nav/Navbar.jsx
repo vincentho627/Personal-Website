@@ -24,7 +24,7 @@ function Navbar() {
           </ul>
         </div>
         <NavElement
-          url="/"
+          url="/Personal-Website/"
           icon="bx-home"
           description="Home"
         />

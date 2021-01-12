@@ -7,19 +7,19 @@ const NavbarList = [
   // },
   {
     id: 2,
-    url: "/experience",
+    url: "/Personal-Website/experience",
     icon: "bx-briefcase",
     description: "Experience",
   },
   {
     id: 3,
-    url: "/projects",
+    url: "/Personal-Website/projects",
     icon: "bxs-folder-open",
     description: "Projects",
   },
   {
     id: 4,
-    url: "/skills",
+    url: "/Personal-Website/skills",
     icon: "bx-code-alt",
     description: "Skills",
   },
