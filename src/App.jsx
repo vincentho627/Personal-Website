@@ -5,7 +5,7 @@ import BasicTimeline from './components/timeline/Timeline'
 import About from './components/about/About'
 import Contacts from './components/contacts/Contacts'
 import Skills from './components/skills/Skills'
-import {BrowserRouter as Router, Route, Switch, Link, Redirect} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Navbar from './components/nav/Navbar'
 
 function App() {

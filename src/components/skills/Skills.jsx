@@ -1,7 +1,6 @@
 import React from 'react';
 import SkillsList from './SkillsList'
 import SkillsBar from './SkillsBar'
-import TimeIcon from '../timeline/TimeIcon'
 
 function Skills() {
   var len = SkillsList.length;
