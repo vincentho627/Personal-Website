@@ -5,3 +5,5 @@ Welcome to my personal website, I have started learning web development a few we
 I have used HTML, CSSm, Javascript and React to make my website with the help of Bootstrap.
 
 Here is the link to the website: [https://vincentho627.github.io/Personal-Website/](https://vincentho627.github.io/Personal-Website/)
+
+Currently only responsive to desktop web.
