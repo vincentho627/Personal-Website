@@ -4,8 +4,8 @@ function About() {
   return (
     <div>
       <section id="about" className="about">
-        <h2 className="about-title">Who am I ?</h2>      
-        <img className="profile-pic" src="/img/profile-pic.png" />
+        <h2 className="about-title">Who am I ?</h2>
+        <img className="profile-pic" src={process.env.PUBLIC_URL + "/img/profile-pic.png"} />
         <div className="about-paragraph">
           <p>
             My name is Vincent Ho and I am currently a second year computing student at Imperial. I am passionate
