@@ -56,13 +56,6 @@ const ProjectsList = [
     description: ""
   },
 
-  // {
-  //   id: 7,
-  //   image: process.env.PUBLIC_URL + "/images/Logic.jpeg",
-  //   title: "Logic Assembly Compiler",
-  //   url: "https://github.com/vincentho627/Logic-C-Compiler",
-  //   description: "A logic compiler built using a parse tree that takes logic equations and assignments as input, and returns an assembly file for our ARM23 Project",
-  // },
 ]
 
 export default ProjectsList;
