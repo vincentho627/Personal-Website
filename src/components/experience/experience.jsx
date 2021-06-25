@@ -12,7 +12,7 @@ function Experience() {
     link: "https://www.harrowschool.hk/",
     image: process.env.PUBLIC_URL + "/img/Harrow.jpg"
   },
-  '2019-09-31': {
+  '2019-09-30': {
     experience: "Currently a second year computing student, looking to study a Master's degree specialising in Artificial Intelligience and Machine Learning",
     company: "Imperial College London",
     position: "Computing Undergraduate",
@@ -63,9 +63,11 @@ function Experience() {
   }}
 
 
-  var dates = ['2014-09-01', '2019-09-31', '2020-07-05', '2020-08-28', '2020-10-30', '2020-11-29', '2021-04-08', '2021-04-20',];
+  // var dates = ['2014-09-01', '2019-09-30', '2020-07-05', '2020-08-28', '2020-10-30', '2020-11-29', '2021-04-08', '2021-04-20',];
+  var dates = [];
   var experiences = [];
   for (var key in experienceList) {
+    dates.push(key)
     experiences.push(experienceList[key]);
   };
 
