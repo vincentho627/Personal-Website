@@ -64,7 +64,7 @@ gsap.to(".timeline", {
     trigger: ".header",
     toggleActions: "restart pause resume pause"
   },
-  y: -80,
+  y: -150,
   opacity: 1,
   duration: 1
 })
@@ -74,7 +74,7 @@ gsap.to(".experience-card", {
     trigger: ".header",
     toggleActions: "restart pause resume pause"
   },
-  y: -80,
+  y: -150,
   opacity: 1,
   duration: 1
 })
@@ -84,7 +84,7 @@ gsap.to("#carousel", {
     trigger: "#carousel",
     toggleActions: "restart pause resume pause"
   },
-  y: -80,
+  y: -150,
   opacity: 1,
   duration: 1
 })
