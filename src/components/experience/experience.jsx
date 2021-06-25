@@ -63,14 +63,12 @@ function Experience() {
   }}
 
 
-  var dates = [];
+  var dates = ['2021-04-08', '2021-04-08', '2021-04-08', '2021-04-08', '2021-04-08', '2021-04-08', '2021-04-08', '2021-04-08',];
   var experiences = [];
   for (var key in experienceList) {
-    dates.push(key);
     experiences.push(experienceList[key]);
   };
 
-  console.log(dates);
 
 
   const [value, setValue] = useState(1);
