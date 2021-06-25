@@ -6,7 +6,7 @@ const experienceList = {
     link: "https://www.harrowschool.hk/",
     image: process.env.PUBLIC_URL + "/img/Harrow.jpg"
   },
-  '2019-09-31': {
+  '2019-09-30': {
     experience: "Currently a second year computing student, looking to study a Master's degree specialising in Artificial Intelligience and Machine Learning",
     company: "Imperial College London",
     position: "Computing Undergraduate",
