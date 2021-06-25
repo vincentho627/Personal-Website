@@ -3,7 +3,7 @@ import HorizontalTimeline from 'react-horizontal-timeline';
 // import {dates, experiences} from './experienceList';
 
 function Experience() {
-  
+
   const experienceList = {
   '2014-09-01': {
     experience: "Studied Mathematics, Further Mathematics, Chemistry, Physics and did an EPQ on investigating how guitar bracings affect the sound quality",
@@ -69,6 +69,8 @@ function Experience() {
     dates.push(key);
     experiences.push(experienceList[key]);
   };
+
+  console.log(dates);
 
 
   const [value, setValue] = useState(1);
