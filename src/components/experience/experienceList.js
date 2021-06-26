@@ -11,7 +11,7 @@ const experienceList = {
     company: "Imperial College London",
     position: "Computing Undergraduate",
     link: "https://www.imperial.ac.uk/",
-    image: process.env.PUBLIC_URL + "/img/Imperial.jpg"
+    image: process.env.PUBLIC_URL + "/img/Imperial.webp"
   },
   '2020-07-05': {
     experience: "During this internship, I was able to develop a deeper understanding of Python, GUIs, and Web Apps. This was done through completing assigned projects throughout the internship and I thoroughly enjoyed it. ",
