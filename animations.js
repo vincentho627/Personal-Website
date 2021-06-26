@@ -50,7 +50,7 @@ gsap.to(".exp", {
 
 gsap.to(".project", {
   scrollTrigger: {
-    trigger: "#project",
+    trigger: ".project",
     toggleActions: "restart pause resume pause"
   },
   y: 100,
