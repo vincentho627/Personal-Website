@@ -4,12 +4,12 @@ import {dates, experiences} from './experienceList';
 
 function Experience() {
 
-  const [value, setValue] = useState(1);
-  const [text, setText] = useState(experiences[1].experience);
-  const [image, setImage] = useState(process.env.PUBLIC_URL + "/img/Imperial.jpg");
-  const [company, setCompany] = useState(experiences[1].company);
-  const [link, setLink] = useState(experiences[1].link);
-  const [position, setPosition] = useState(experiences[1].position);
+  const [value, setValue] = useState(2);
+  const [text, setText] = useState(experiences[2].experience);
+  const [image, setImage] = useState(experiences[2].image);
+  const [company, setCompany] = useState(experiences[2].company);
+  const [link, setLink] = useState(experiences[2].link);
+  const [position, setPosition] = useState(experiences[2].position);
 
 
   return (
