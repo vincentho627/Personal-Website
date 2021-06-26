@@ -166,6 +166,10 @@ li {
   position: relative;
 }
 
+#experiences {
+  margin-bottom: 5rem;
+}
+
 .experience-card {
   position: absolute;
   margin: auto;
@@ -174,7 +178,7 @@ li {
   border-radius: 20px;
   width: 45vw;
   min-height: 40vh;
-  margin-top: 20%;
+  margin-top: 15%;
   left: 0;
   right: 0;
   opacity: 0;
@@ -378,7 +382,7 @@ li {
   }
 
   .experience-card {
-    margin-top: 22%;
+    margin-top: 25%;
     width: 50vw;
   }
 
@@ -463,7 +467,7 @@ li {
 
 @media (max-width:760px) {
   .experience-card {
-    margin-top: 85%;
+    margin-top: 60%;
     width: 65vw;
   }
 }
