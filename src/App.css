@@ -459,7 +459,7 @@ li {
   }
 
   .col-sm-2 {
-    width: 25%;
+    width: 20%;
   }
 }
 
@@ -494,7 +494,7 @@ li {
   .profile-pic {
     left: 25%;
     width: 50%;
-    top: 133%;
+    top: 155%;
   }
 
   #experiences {
@@ -512,7 +512,7 @@ li {
   }
 
   .experience-card {
-    top: 235%;
+    top: 260%;
     width: 85vw;
   }
 
