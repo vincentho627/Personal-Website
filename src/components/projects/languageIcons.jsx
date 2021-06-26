@@ -39,6 +39,8 @@ function LanguageIcons(props) {
         case "Firebase":
           icons.push(<img className="language" src={process.env.PUBLIC_URL + "/img/firebase.png"} alt="firebase pic"/>);
           break;
+        default:
+          break;
       }
     }
     return icons;

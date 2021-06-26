@@ -2,7 +2,6 @@ import React, {useState, useEffect} from 'react';
 import $ from 'jquery';
 import ProjectsList from './projectsList';
 import Button from '@material-ui/core/Button';
-import ReactCardFlip from 'react-card-flip';
 import LanguageIcons from './languageIcons';
 
 function Projects() {
@@ -10,13 +9,12 @@ function Projects() {
   const [projects, setProjects] = useState([]);
   const [index, setIndex] = useState(0);
   const [previous, setPrevious] = useState(0);
-  const [buttonTabs, setButtonTabs] = useState([]);
-  const [buttonNames, setButtonNames] = useState(["All", "AI", "Web", "Mobile", "System", "Games"]);
+  const buttonNames = ["All", "AI", "Web", "Mobile", "System", "Games"];
 
   useEffect(() => {
     createProjectList();
     // initButtonTabs();
-    changeButtonColor();
+    // changeButtonColor();
   }, []);
 
   useEffect(() => {
