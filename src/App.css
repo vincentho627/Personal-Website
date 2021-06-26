@@ -519,10 +519,10 @@ li {
     width: 85%;
   }
 
-  /* .experience-card {
-    top: 260%;
+  .experience-card {
+    margin-top: 70%;
     width: 85vw;
-  } */
+  }
   .experience-desc {
     min-height: 33vh;
   }
