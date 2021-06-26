@@ -279,8 +279,8 @@ li {
   width: 45vw;
   margin: auto;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  /* align-items: center; */
+  /* justify-content: space-between; */
   position: relative;
   top: 15rem;
   opacity: 0;
