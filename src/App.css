@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Nunito', sans-serif;
-  
+
 }
 
 . main {
@@ -405,6 +405,12 @@ li {
 @media (max-width:961px) {
   .title-text {
     font-size: 4rem;
+  }
+
+  .landing {
+    background-attachment: scroll;
+    background-size: 100%;
+    width: 100%;
   }
 
   #logo {
