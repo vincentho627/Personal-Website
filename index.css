@@ -2,3 +2,11 @@
   background: url("./img/background.webp");
   opacity: 90%;
 }
+
+@media (max-width: 991px) {
+
+  .landing {
+    background-attachment: scroll;
+  }
+
+}
