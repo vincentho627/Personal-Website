@@ -4,7 +4,7 @@ function About() {
   return (
     <div>
       <section id="about" className="about">
-        <h2 className="about-title">Who am I ?</h2>
+        <h2 className="about-title">About me</h2>
         <img className="profile-pic" src={process.env.PUBLIC_URL + "/img/profile-pic.png"} alt="profile pic" />
         <div className="about-paragraph">
           <p>
