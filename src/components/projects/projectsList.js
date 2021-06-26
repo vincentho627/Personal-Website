@@ -73,7 +73,7 @@ const ProjectsList = [
   },
   {
     id: 7,
-    title: "AI Handwritting Alphabets Reader",
+    title: "AI Handwritting Reader",
     type: "AI",
     languages: ["Python"],
     url: "https://github.com/vincentho627/AI-Distinguish-Handwritten-Alphabet",
