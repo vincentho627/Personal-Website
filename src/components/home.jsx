@@ -21,7 +21,6 @@ function Home() {
         </h1>
       </div>
     </div> */}
-    <div className="slider"></div>
     </div>
   )
 }
