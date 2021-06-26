@@ -121,7 +121,7 @@ gsap.to(".projectContainer", {
 
 gsap.to(".contact-header", {
   scrollTrigger: {
-    trigger: ".contact-header",
+    trigger: "#contact",
     toggleActions: "restart pause resume pause"
   },
   y: 100,
@@ -131,7 +131,7 @@ gsap.to(".contact-header", {
 
 gsap.to(".contacts-list", {
   scrollTrigger: {
-    trigger: ".contacts-list",
+    trigger: "#contact",
     toggleActions: "restart pause resume pause"
   },
   y: -100,
