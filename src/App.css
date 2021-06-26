@@ -310,7 +310,7 @@ li {
 }
 
 .icons {
-  font-size: 4rem;
+  width: 70px;
 }
 
 .contact-icon {
@@ -550,7 +550,7 @@ li {
   }
 
   .icons {
-    font-size: 3rem;
+    width: 50px;
   }
 
   .linkedin {
