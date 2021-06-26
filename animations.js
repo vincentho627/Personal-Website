@@ -50,7 +50,7 @@ gsap.to(".exp", {
 
 gsap.to(".project", {
   scrollTrigger: {
-    trigger: ".project",
+    trigger: "#project",
     toggleActions: "restart pause resume pause"
   },
   y: 100,
@@ -79,35 +79,45 @@ gsap.to(".experience-card", {
   duration: 1
 })
 
-gsap.to("#carousel", {
+gsap.to(".projectContainer", {
   scrollTrigger: {
-    trigger: "#carousel",
+    trigger: "#projects",
     toggleActions: "restart pause resume pause"
   },
   y: -70,
   opacity: 1,
   duration: 1
-})
+});
 
-gsap.to("#prev", {
-  scrollTrigger: {
-    trigger: "#carousel",
-    toggleActions: "restart pause resume pause"
-  },
-  y: -100,
-  opacity: 1,
-  duration: 1
-})
-
-gsap.to("#next", {
-  scrollTrigger: {
-    trigger: "#carousel",
-    toggleActions: "restart pause resume pause"
-  },
-  y: -100,
-  opacity: 1,
-  duration: 1
-})
+// gsap.to("#carousel", {
+//   scrollTrigger: {
+//     trigger: "#carousel",
+//     toggleActions: "restart pause resume pause"
+//   },
+//   y: -70,
+//   opacity: 1,
+//   duration: 1
+// })
+//
+// gsap.to("#prev", {
+//   scrollTrigger: {
+//     trigger: "#carousel",
+//     toggleActions: "restart pause resume pause"
+//   },
+//   y: -100,
+//   opacity: 1,
+//   duration: 1
+// })
+//
+// gsap.to("#next", {
+//   scrollTrigger: {
+//     trigger: "#carousel",
+//     toggleActions: "restart pause resume pause"
+//   },
+//   y: -100,
+//   opacity: 1,
+//   duration: 1
+// })
 
 gsap.to(".contact-header", {
   scrollTrigger: {
