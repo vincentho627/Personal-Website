@@ -470,6 +470,10 @@ li {
   .col-sm-2 {
     width: 30%;
   }
+
+  .col-sm-4 {
+    width: 40%;
+  }
 }
 
 @media (max-width:760px) {
