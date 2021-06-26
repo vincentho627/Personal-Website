@@ -2,9 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}.
+}
 
-main {
+. main {
   font-family: "Heebo", sans-serif;
 }
 
@@ -240,19 +240,18 @@ li {
   margin-right: 0.5rem;
   transform: translateY(-0.5rem);
 } */
-
 .projectTitle {
   color: #5a5a5a;
-   width: 100%;
-   text-align: center;
-   border-bottom: 2px solid #B53737;
-   line-height: 0.1em;
-   margin: 10px 0 20px;
+  width: 100%;
+  text-align: center;
+  border-bottom: 2px solid #B53737;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
 }
 
 .projectTitle span {
-    background: #fff;
-    padding:0 10px;
+  background: #fff;
+  padding: 0 10px;
 }
 
 .language {
@@ -269,7 +268,6 @@ li {
   margin-left: 0.5rem;
   transform: translateY(-0.5rem);
 } */
-
 .contacts-list {
   height: 20vh;
   width: 45vw;
@@ -398,7 +396,7 @@ li {
   }
 }
 
-@media (max-width:961px)  {
+@media (max-width:961px) {
   .title-text {
     font-size: 4rem;
   }
@@ -470,7 +468,6 @@ li {
   }
 }
 
-
 @media (max-width:641px) {
   .title-text {
     font-size: 3rem;
@@ -522,7 +519,6 @@ li {
     top: 260%;
     width: 85vw;
   } */
-
   .experience-desc {
     min-height: 33vh;
   }
@@ -563,6 +559,22 @@ li {
   }
 }
 
+@media screen and (orientation: landscape) {
+  html {
+    /* Rotate the content container */
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    /* Set content width to viewport height */
+    width: 100vh;
+    /* Set content height to viewport width */
+    height: 100vw;
+    overflow-x: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+}
+
 /* @media (max-width:481px)  {
   .about-title {
     left: 4%;
@@ -579,5 +591,6 @@ li {
     left: -3.5px;
   }
 } */
-
-@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ }
+@media (min-width:320px) {
+  /* smartphones, iPhone, portrait 480x320 phones */
+}
