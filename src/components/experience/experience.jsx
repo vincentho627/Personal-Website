@@ -6,7 +6,7 @@ function Experience() {
 
   const [value, setValue] = useState(1);
   const [text, setText] = useState(experiences[1].experience);
-  const [image, setImage] = useState(experiences[1].image);
+  const [image, setImage] = useState(process.env.PUBLIC_URL + "/img/Imperial.jpg");
   const [company, setCompany] = useState(experiences[1].company);
   const [link, setLink] = useState(experiences[1].link);
   const [position, setPosition] = useState(experiences[1].position);
