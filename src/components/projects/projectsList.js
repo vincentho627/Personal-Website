@@ -3,9 +3,9 @@ const ProjectsList = [
     id: 9,
     title: "Basket",
     type: "Mobile",
-    languages: ["Flutter", "Dart", "Firebase"],
+    languages: ["Flutter", "Dart", "Firebase", "Python", "Html", "css", "Javascript"],
     url: "https://github.com/DRP-Basket/Basket",
-    description: "A mobile app for both food charities and businesses. Our aim is to help food charities manage and streamline their external communications, at the same time make it as simple as possible for businesses to make donations."
+    description: "A mobile app for both food charities and businesses, including a website for receivers and charities to use. Our aim is to help food charities manage and streamline their external communications, at the same time make it as simple as possible for businesses to make donations."
   },
   {
     id: 10,
@@ -28,7 +28,7 @@ const ProjectsList = [
     title: "Pintos Operating System",
     type: "System",
     languages: ["C"],
-    url: "https://i1.sndcdn.com/artworks-000062423439-lf7ll2-t500x500.jpg",
+    url: "https://github.com/vincentho627/pintos",
     description: "An unversity project that builds an operating system using threads, system calls and virtual memories",
   },
   {
@@ -56,6 +56,14 @@ const ProjectsList = [
     description: "Training an AI model to play Flappy Bird with a reinforcement learning algorithm NEAT",
   },
   {
+    id: 12,
+    title: "WhereThe",
+    type: "Web",
+    languages: ["Html", "css", "Javascript", "Python"],
+    url: "https://github.com/vincentho627/ic-hello-world-backend",
+    description: "A platform where people in local areas can report lost items, such as wallets, phones, keys etc., and notify others of located items that are potentially being found",
+  },
+  {
     id: 4,
     title: "Star Wars Laser Defender",
     type: "Games",
@@ -78,6 +86,14 @@ const ProjectsList = [
     languages: ["Python"],
     url: "https://github.com/vincentho627/AI-Distinguish-Handwritten-Alphabet",
     description: "Identifying the handwritten alphabet using Neural Networks, initializing data, isolating letters in images, training the neural network, and predicting future images",
+  },
+  {
+    id: 11,
+    title: "Logic Compiler",
+    type: "System",
+    languages: ["C"],
+    url: "https://github.com/vincentho627/Logic-C-Compiler",
+    description: "A compiler that takes logic equations and assignments as input, and returns an assembly file",
   },
 ]
 
