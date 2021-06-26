@@ -436,7 +436,7 @@ li {
   }
 
   .experience-card {
-    top: 240%;
+    top: 250%;
     width: 65vw;
   }
 
@@ -460,6 +460,13 @@ li {
 
   .col-sm-2 {
     width: 30%;
+  }
+}
+
+@media (max-width:760px) {
+  .experience-card {
+    top: 270%;
+    width: 65vw;
   }
 }
 
