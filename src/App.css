@@ -279,6 +279,7 @@ li {
   width: 45vw;
   margin: auto;
   display: flex;
+  padding-top: 5%;
   /* align-items: center; */
   /* justify-content: space-between; */
   position: relative;
