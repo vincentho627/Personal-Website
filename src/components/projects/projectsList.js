@@ -59,7 +59,7 @@ const ProjectsList = [
     id: 12,
     title: "WhereThe",
     type: "Web",
-    languages: ["Html", "css", "Javascript", "Python"],
+    languages: ["Html", "css", "Javascript", "Python", "SQL"],
     url: "https://github.com/vincentho627/ic-hello-world-backend",
     description: "A platform where people in local areas can report lost items, such as wallets, phones, keys etc., and notify others of located items that are potentially being found",
   },
