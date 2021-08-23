@@ -8,7 +8,7 @@ function About() {
         <img className="profile-pic" src={process.env.PUBLIC_URL + "/img/profile-pic.png"} alt="profile pic" />
         <div className="about-paragraph">
           <p>
-            My name is Vincent Ho and I am currently a second year computing student at Imperial. I am passionate
+            My name is Vincent Ho and I am currently a third year computing student at Imperial. I am passionate
             about Machine Learning, Data Science and Software Engineering. My main coding languages include Python,
             Java, C, Haskell and Javascript. I love playing the guitar, badminton, hiking and playing video games
             with my friends.
