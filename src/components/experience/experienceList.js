@@ -63,12 +63,19 @@ const experienceList = {
         link: "https://www.kmon.net/",
         image: process.env.PUBLIC_URL + "/img/kmon.png"
     },
-    '2020-08-01': {
+    '2021-08-01': {
       experience: "Managing the society with the team and being in charge of developing and maintaining the society's websites, including hosting the upcoming Algothon 2022 hackathon.",
       company: "Algorithmic Trading Society",
       position: "Head of Frontend",
       link: "http://www.algosoc.com/",
       image: process.env.PUBLIC_URL + "/img/ATS.png"
+    },
+    '2022-04-04': {
+        experience: "Created scalable toxicity detection solutions for all languages for SwiftKey used by more than 500 million users.",
+        company: "Microsoft",
+        position: "Software Engineering Intern",
+        link: "https://www.microsoft.com/",
+        image: process.env.PUBLIC_URL + "/img/Microsoft.png"
     },
 }
 

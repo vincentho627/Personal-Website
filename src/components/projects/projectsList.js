@@ -1,5 +1,13 @@
 const ProjectsList = [
   {
+    id: 13,
+    title: "Relational Database Designer",
+    type: "Web",
+    languages: ["Html", "css", "Javascript", "Firebase"],
+    url: "https://github.com/jqpoon/relational_db_designert",
+    description: "A web app that aims to create an editor for schemas expressed in the ER modelling language as used on the Introduction to Databases course."
+  },
+  {
     id: 9,
     title: "Basket",
     type: "Mobile",
@@ -37,7 +45,7 @@ const ProjectsList = [
     type: "Web",
     languages: ["Python", "Html", "css", "Javascript"],
     url: "https://github.com/vincentho627/COVID-19-Voice-Assistant",
-    description: "Webapp that returns COVID cases of countries given by the user through voice recognition or manual inputs"
+    description: "A web app that returns COVID cases of countries given by the user through voice recognition or manual inputs"
   },
   {
     id: 8,
@@ -45,7 +53,7 @@ const ProjectsList = [
     type: "Web",
     languages: ["Html", "css", "Javascript"],
     url: "https://github.com/vincentho627/Algo-Visual",
-    description: "An web app that visualises sorting and path finding algorithms such as bubble sort, merge sort, dikjstra and A*"
+    description: "A web app that visualises sorting and path finding algorithms such as bubble sort, merge sort, dikjstra and A*"
   },
   {
     id: 3,
